@@ -3,6 +3,8 @@ project(leetcode)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
+include_directories($ENV{Boost_DIR})
+
 add_executable(spiral_matrix spiral_matrix.cpp)
 add_executable(spiral_matrix_ii spiral_matrix_ii.cpp)
 add_executable(simplify_path simplify_path.cpp)
@@ -23,3 +25,4 @@ add_executable(problem_four problem_four.cpp)
 add_executable(longest_substr_without_repeating_char "Longest Substring Without Repeating Characters.cpp")
 add_executable(suffle_an_array "Shuffle an Array.cpp")
 add_executable(matchsticks_to_square "Matchsticks to Square.cpp")
+add_executable(maximum_subarray "Maximum Subarray.cpp")
