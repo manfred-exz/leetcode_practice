@@ -26,3 +26,4 @@ add_executable(longest_substr_without_repeating_char "Longest Substring Without 
 add_executable(suffle_an_array "Shuffle an Array.cpp")
 add_executable(matchsticks_to_square "Matchsticks to Square.cpp")
 add_executable(maximum_subarray "Maximum Subarray.cpp")
+add_executable(best_time_to_buy_and_sell_stock "Best Time to Buy and Sell Stock.cpp")
