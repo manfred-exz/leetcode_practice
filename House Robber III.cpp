@@ -54,7 +54,6 @@ public:
 
 int main(){
     Solution s;
-    s.rob();
 
     return 0;
 }
