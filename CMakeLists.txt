@@ -40,3 +40,4 @@ add_executable(find_largest_value_in_each_tree_row "Find Largest Value in Each T
 add_executable(out_of_boundary_paths "Out of Boundary Paths.cpp")
 add_executable(ransom_note "Ransom Note.cpp")
 add_executable(lexicographical_numbers "Lexicographical Numbers.cpp")
+add_executable(non_negative_integers_without_consecutive_ones "Non-negative Integers without Consecutive Ones.cpp")
