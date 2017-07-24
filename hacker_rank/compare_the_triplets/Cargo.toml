@@ -1,0 +1,6 @@
+[package]
+name = "compare_the_triplets"
+version = "0.1.0"
+authors = ["manfred-exz <manfred.exz@gmail.com>"]
+
+[dependencies]
