@@ -1,0 +1,7 @@
+[package]
+name = "grading"
+version = "0.1.0"
+authors = ["manfred-exz <manfred.exz@gmail.com>"]
+
+[dependencies]
+text_io = "*"
