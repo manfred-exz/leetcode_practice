@@ -44,3 +44,4 @@ add_executable(non_negative_integers_without_consecutive_ones "Non-negative Inte
 add_executable(valid_sudoku "Valid Sudoku.cpp")
 add_executable(increasing_triplet_subsequence "Increasing Triplet Subsequence.cpp")
 add_executable(median_of_two_sorted_arrays "Median of Two Sorted Arrays.cpp")
+add_executable(reduced-string "[hackerrank]reduced-string.cpp")
