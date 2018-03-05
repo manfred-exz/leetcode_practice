@@ -7,7 +7,7 @@
 using namespace std;
 class Solution {
 public:
-    int countSubstrings(string s) {
+    int longestPalindromeSubseq(string s) {
         auto count_expand = [&](int start, int end) {
             int count = 0;
             while(0 <= start && end < s.size() && s[start] == s[end]) {
@@ -28,5 +28,5 @@ public:
 
 int main() {
     Solution s;
-    cout << s.countSubstrings("aaa");
+    cout << s.longestPalindromeSubseq("aaa");
 }
